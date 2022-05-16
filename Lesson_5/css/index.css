@@ -1,0 +1,43 @@
+
+.Figma-test {
+    width: 946.31px;
+    height: 3089.96px;
+    margin-left: 290px;
+}
+.Bioh-navigation__links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.Skills-Form__Icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Skills-form-icons__Stars {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+.Skills-Form-Icons-Img__pic {
+    padding-left: 50px;
+}
+.Sills-form__Text {
+    text-align: center;
+    color:  #828282;
+}
+.Skills-form-icons__Stars {
+    padding-right: 40px;
+}
+.About-form-text__bio {
+    text-align: center;
+}
+.porfloio-pages__links {
+    text-align: center;
+}
+.Contacts_img__icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
