@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 943px;
+    margin: 0 auto;
+}
+
+.header__nemu-item {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--mail-tittle);
+    text-decoration:none;
+}
+.p {
+    display: flex;
+    gap: 40px;
+}
+.header__menu {
+    padding: 29px;
+    margin-bottom: 33px;
+    border-bottom: 1px ;
+}
+
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --main-tittle: black;
+}
+
+.tittle {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 64px;
+    color:var(--main-tittle);
+    margin-bottom: 38px;
+}
+.header__img {
+    Width: 943px;
+    Height: 387px;
+    background-image: url(/img/PortfolioDen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
