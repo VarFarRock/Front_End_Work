@@ -121,8 +121,6 @@
     display: flex;
     justify-content: space-around;
 }
-.skills-form-icons__stars {
-}
 .portfolio {
     height: 1444px;
     width: 937px;
@@ -145,13 +143,53 @@
 .portfolio-itemthre {
     background-image: url(/img/PortfolioThree.jpg);
 }
-/*
-.Contacts_img__icons {
-    list-style-type: none;
+.contacts {
+    width: 341px;
+    height: 411px;
+    margin-left: 310px;
+    text-align: center;
+}
+.contacts-text {
+    padding-bottom: 78px;
+}
+.buttom-submit {
+    margin-bottom: 31px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border: 0em;
+    Width:100px;
+    Height:42px;
+}
+.buttom-background-img {
+    background-image: url(/img/icons/Component.png);
+    background-color: rgba(90,0,0,0);
+}
+.contacts-img {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 44px;
 }
-
+.contacs-img__icons {
+    Width:40px;
+    Height:39px
+}
+.contacts-img-backgroundin {
+    background-image: url(/img/icons/GroupIN.png);
+}
+.contacts-img-backgroundis {
+    background-image: url(/img/icons/GroupInstagram.png);
+}
+.contacts-img-backgroundbe {
+    background-image: url(/img/icons/GroupBE.png);
+}
+.contacts-img-backgroundbas {
+    background-image: url(/img/icons/GroupBas.png);
+}
+.contacts-text-end {
+   color: #828282; 
+}
+/*
 class="test":nth-child(2.4.5.6.7.8) {
     color: red;
 }
