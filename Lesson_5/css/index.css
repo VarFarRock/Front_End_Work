@@ -12,7 +12,9 @@
 }
 .sub-text {
     text-align: center;
+    padding-top: 15px;
     padding-bottom: 29px;
+    text-decoration-line: underline;
 }
 :root {
     --main-font: 'Open Sans', sans-serif;
@@ -22,7 +24,7 @@
 .page-wraper {
     width: 100%;
     max-width: 943px;
-    Height: 1889px;
+    Height: 4789px;
     margin: 0 auto;
 }
 .bio-navigation {
@@ -95,6 +97,11 @@
 .skills-form {
     margin-bottom: 40px;
 }
+.skills-form__text-container {
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 74px;
+}
 .skills-form__icons {
     display: flex;
     justify-content: space-evenly;
@@ -103,6 +110,7 @@
     padding-top:20px;
     text-align: center;
     padding-bottom: 56px;
+    color: #828282;
 }
 .skills-form-icons__stars {
     display: flex;
@@ -110,18 +118,23 @@
     list-style-type: none;
 }
 .skills-form-icons-img__pic {
-    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 .skills-form-icons__stars {
-    padding-right: 40px;
 }
 .portfolio {
-    height: 2239px;
+    height: 1444px;
+    width: 937px;
 }
 .portfolio-form-img__backgroud {
-    height: 522px;
-    width: 937px;
+    height: 322px;
+    width: 637px;
+    margin-left: 154px;
+    border: 5px solid red;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size:contain
 }
 .portfolio-itemone {
     background-image: url(/img/PortfolioFirst.jpg);
