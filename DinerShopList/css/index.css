@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.sub-list {
+    Width:534px;
+    Height:45px;
+    margin: 0px 130px 0px 130px;
+    list-style: none;
+}
+li:nth-child(2n+1) {
+    background: #88839E;
+}
+li:nth-child(4n+2) {
+    background: #7A7593;
+}
+li:nth-child(4) {
+    background: #625E77;
+}
+input.dinnerList__box:checked~span.dinnerList__text {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: red;
+}
+.wraper {
+    Width:793px;
+    Height:507px;
+}
+.header {
+    Width:793px;
+    Height:82px;
+    padding-bottom: 20px;
+    background: #4A4F56;
+}
+.header__container-tittle:hover {
+    transform: skew(-15deg);
+}
+.header__container-tittle {
+    font-size: 2em;
+    color:#FF8984;
+    padding: 19px 0 10px;
+}
+.header__container-text {
+    color:#FF8984;
+}
+.header__container {
+    text-align: center;
+}
+.dinnerList {
+    background: #3B3F45;
+}
+.dinnerList__chek-form:hover {
+    background-color: green;
+    border: 2px solid orange;
+}
+.dinnerList__form {
+    padding-top: 20px;
+}
+.dinnerList__text {
+    color: wheat;
+}
+.dinnerList__box{
+    margin: 17px 10px 10px 12px;
+}
+.bon__form {
+    text-align: center;
+    padding: 0px 120px 40px 130px;
+}
+.bon__form-text:hover {
+    background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 3px 5px #3a7999;
+}
+.bon__form-text {
+    background: #4A4F56;
+    margin-top: 45px;
+    Width:534px;
+    Height:45px;
+}
+.bon__tittle {
+    padding-top: 12px;
+    color: #FF8984;
+    font-size: 1em;
+}
