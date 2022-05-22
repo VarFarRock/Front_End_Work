@@ -16,8 +16,14 @@
     padding-bottom: 29px;
     text-decoration-line: underline;
 }
+.icon-text {
+    color: #828282;
+}
 :root {
     --main-font: 'Open Sans', sans-serif;
+}
+section:nth-child(2){
+    background:#F6F6F6;
 }
 /* global container*/
 
@@ -27,6 +33,7 @@
     Height: 4789px;
     margin: 0 auto;
 }
+/*section bio*/
 .bio-navigation {
     padding-top: 22px;
     padding-bottom: 33px;
@@ -66,9 +73,12 @@
     height: 387px;
     margin-bottom: 100px;
 }
+/*section bio end*/
+
+/*section about-form*/
 .about-form {
     width: 936px;
-    height: 396px;
+    height: 570px;
     margin-bottom: 48px;
 }
 .about-form-text__container {
@@ -93,9 +103,12 @@
 }
 .about-form-text__container-text:nth-child(3):hover {
     color: blue;
+/*section about-form end*/
 }
-.skills-form {
+.skills-form{
     margin-bottom: 40px;
+    padding: 100px 0 83px;
+
 }
 .skills-form__text-container {
     text-align: center;
@@ -110,12 +123,13 @@
     padding-top:20px;
     text-align: center;
     padding-bottom: 56px;
-    color: #828282;
 }
 .skills-form-icons__stars {
     display: flex;
     flex-wrap: nowrap;
-    list-style-type: none;
+}
+.skill_bar {
+    width: 35px;
 }
 .skills-form-icons-img__pic {
     display: flex;
@@ -135,13 +149,13 @@
     background-size:contain
 }
 .portfolio-itemone {
-    background-image: url(/img/PortfolioFirst.jpg);
+    background-image: url(../img/PortfolioFirst.jpg);
 }
 .portfolio-itemtwo {
-    background-image: url(/img/Portfoliotwo.jpg);
+    background-image: url(../img/Portfoliotwo.jpg);
 }
 .portfolio-itemthre {
-    background-image: url(/img/PortfolioThree.jpg);
+    background-image: url(../img/PortfolioThree.jpg);
 }
 .contacts {
     width: 341px;
@@ -175,7 +189,7 @@
     Height:39px
 }
 .contacts-img-backgroundin {
-    background-image: url(/img/icons/GroupIN.png);
+    background-image: url(../img/icons/GroupIN.png);
 }
 .contacts-img-backgroundis {
     background-image: url(/img/icons/GroupInstagram.png);
@@ -185,9 +199,6 @@
 }
 .contacts-img-backgroundbas {
     background-image: url(/img/icons/GroupBas.png);
-}
-.contacts-text-end {
-   color: #828282; 
 }
 /*
 class="test":nth-child(2.4.5.6.7.8) {

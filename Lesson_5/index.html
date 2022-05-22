@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,35 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@700&display=swap"
+        rel="stylesheet">
     <title>Denis Novik</title>
 </head>
+
 <body>
     <div class="page-wraper">
-        <header class="bio">
-                <nav class="bio-navigation">
-                    <ul class="bio-navigation__links">
-                        <li class="bio-navigation-links__menu">
-                            <a href="#" class="bio-navigation-links-menu__url">Home</a>
-                        </li>
-                        <li class="bio-navigation-links__menu">
-                            <a href="#"class="bio-navigation-links-menu__url">About me</a>
-                        </li>
-                        <li class="bio-navigation-links__menu">
-                            <a href="#" class="bio-navigation-links-menu__url">Skills</a>
-                        </li>
-                        <li class="bio-navigation-links__menu">
-                            <a href="#" class="bio-navigation-links-menu__url">Contacts</a>
-                        </li>
-                    </ul>    
-                </nav>
-                <hr class="bio-border">
-                <div class="bio-Info">
-                    <div class="bio-info__name">Denis Novik</div>
-                    <div class="bio-info__img"></div>
-                </div>
+        <header class="bio-form">
+            <nav class="bio-navigation">
+                <ul class="bio-navigation__links">
+                    <li class="bio-navigation-links__menu">
+                        <a href="#" class="bio-navigation-links-menu__url">Home</a>
+                    </li>
+                    <li class="bio-navigation-links__menu">
+                        <a href="#" class="bio-navigation-links-menu__url">About me</a>
+                    </li>
+                    <li class="bio-navigation-links__menu">
+                        <a href="#" class="bio-navigation-links-menu__url">Skills</a>
+                    </li>
+                    <li class="bio-navigation-links__menu">
+                        <a href="#" class="bio-navigation-links-menu__url">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="bio-border">
+            <div class="bio-Info">
+                <div class="bio-info__name">Denis Novik</div>
+                <div class="bio-info__img"></div>
+            </div>
         </header>
         <section class="about-form">
             <div class="sub-tittle about-form__text">About Me</div>
@@ -48,41 +51,51 @@
             </div>
         </section>
         <section class="skills-form">
-                <div class="sub-tittle skills-form__name">Skills</div>
-                <div class="skills-form__text">
-                    <p class="skills-form__text-container">I work in such programs as</p>
-                </div>
-            <div class="skills-form__icons">  
+            <div class="sub-tittle skills-form__name">Skills</div>
+            <div class="skills-form__text">
+                <p class="skills-form__text-container">I work in such programs as</p>
+            </div>
+            <div class="skills-form__icons">
                 <div class="skills-form-icons__img">
                     <div class="skills-form-icons-img__pic">
-                        <img src="./img/icons/GroupAdobePhotoshop.png">
+                        <img src="./img/icons/GroupAdobePhotoshop.png" alt="Photoshop">
                     </div>
-                    <div class="skills-form-text__prof">
+                    <div class="icon-text skills-form-text__prof">
                         <p>Adobe<br>Photoshop</p>
                     </div>
-                    <ul class="skills-form-icons__stars">
-                        <li class="skills-form-icons-stars__img">
-                            <img src="./img/icons/GroupStarBlack.png">
-                        </li>
-                        <li class="skills-form-icons-stars__img">
-                            <img src="./img/icons/GroupStarBlack.png">
-                        </li>
-                        <li class="skills-form-icons-stars__img">
-                            <img src="./img/icons/GroupStarBlack.png">
-                        </li>
-                        <li class="skills-form-icons-stars__img">
-                            <img src="./img/icons/GroupStarBlack.png">
-                        </li>
-                        <li class="skills-form-icons-stars__img">
-                            <img src="./img/icons/GroupStar.png">
-                        </li>
-                    </ul>
+                    <div class="skills-form-icons__stars">
+                        <div class="skill_bar">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1822 0.85958C10.4821 -0.0606967 11.784 -0.0606959 12.0838 0.859581L13.8349 6.23398C13.969 6.64561 14.3528 6.92418 14.7857 6.92418H20.4465C21.4159 6.92418 21.8182 8.16521 21.0332 8.73398L16.4583 12.0486C16.1069 12.3033 15.9598 12.7555 16.0942 13.1682L17.8428 18.5349C18.1428 19.4557 17.0895 20.2227 16.3053 19.6544L11.7197 16.3321C11.3697 16.0784 10.8963 16.0784 10.5463 16.3321L5.96074 19.6544C5.17649 20.2227 4.1232 19.4557 4.42322 18.5348L6.17179 13.1682C6.30625 12.7555 6.15917 12.3033 5.80771 12.0486L1.23283 8.73398C0.447826 8.16521 0.850157 6.92418 1.81955 6.92418H7.48031C7.91323 6.92418 8.29699 6.64561 8.43111 6.23398L10.1822 0.85958Z" fill="#070707"/>
+                            </svg>
+                        </div>
+                        <div class="skill_bar">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1822 0.85958C10.4821 -0.0606967 11.784 -0.0606959 12.0838 0.859581L13.8349 6.23398C13.969 6.64561 14.3528 6.92418 14.7857 6.92418H20.4465C21.4159 6.92418 21.8182 8.16521 21.0332 8.73398L16.4583 12.0486C16.1069 12.3033 15.9598 12.7555 16.0942 13.1682L17.8428 18.5349C18.1428 19.4557 17.0895 20.2227 16.3053 19.6544L11.7197 16.3321C11.3697 16.0784 10.8963 16.0784 10.5463 16.3321L5.96074 19.6544C5.17649 20.2227 4.1232 19.4557 4.42322 18.5348L6.17179 13.1682C6.30625 12.7555 6.15917 12.3033 5.80771 12.0486L1.23283 8.73398C0.447826 8.16521 0.850157 6.92418 1.81955 6.92418H7.48031C7.91323 6.92418 8.29699 6.64561 8.43111 6.23398L10.1822 0.85958Z" fill="#070707"/>
+                            </svg>
+                        </div>
+                        <div class="skill_bar">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1822 0.85958C10.4821 -0.0606967 11.784 -0.0606959 12.0838 0.859581L13.8349 6.23398C13.969 6.64561 14.3528 6.92418 14.7857 6.92418H20.4465C21.4159 6.92418 21.8182 8.16521 21.0332 8.73398L16.4583 12.0486C16.1069 12.3033 15.9598 12.7555 16.0942 13.1682L17.8428 18.5349C18.1428 19.4557 17.0895 20.2227 16.3053 19.6544L11.7197 16.3321C11.3697 16.0784 10.8963 16.0784 10.5463 16.3321L5.96074 19.6544C5.17649 20.2227 4.1232 19.4557 4.42322 18.5348L6.17179 13.1682C6.30625 12.7555 6.15917 12.3033 5.80771 12.0486L1.23283 8.73398C0.447826 8.16521 0.850157 6.92418 1.81955 6.92418H7.48031C7.91323 6.92418 8.29699 6.64561 8.43111 6.23398L10.1822 0.85958Z" fill="#070707"/>
+                            </svg>
+                        </div>
+                        <div class="skill_bar">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1822 0.85958C10.4821 -0.0606967 11.784 -0.0606959 12.0838 0.859581L13.8349 6.23398C13.969 6.64561 14.3528 6.92418 14.7857 6.92418H20.4465C21.4159 6.92418 21.8182 8.16521 21.0332 8.73398L16.4583 12.0486C16.1069 12.3033 15.9598 12.7555 16.0942 13.1682L17.8428 18.5349C18.1428 19.4557 17.0895 20.2227 16.3053 19.6544L11.7197 16.3321C11.3697 16.0784 10.8963 16.0784 10.5463 16.3321L5.96074 19.6544C5.17649 20.2227 4.1232 19.4557 4.42322 18.5348L6.17179 13.1682C6.30625 12.7555 6.15917 12.3033 5.80771 12.0486L1.23283 8.73398C0.447826 8.16521 0.850157 6.92418 1.81955 6.92418H7.48031C7.91323 6.92418 8.29699 6.64561 8.43111 6.23398L10.1822 0.85958Z" fill="#070707"/>
+                            </svg>
+                        </div>
+                        <div class="skill_bar">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.1822 0.85958C10.4821 -0.0606967 11.784 -0.0606959 12.0838 0.859581L13.8349 6.23398C13.969 6.64561 14.3528 6.92418 14.7857 6.92418H20.4465C21.4159 6.92418 21.8182 8.16521 21.0332 8.73398L16.4583 12.0486C16.1069 12.3033 15.9598 12.7555 16.0942 13.1682L17.8428 18.5349C18.1428 19.4557 17.0895 20.2227 16.3053 19.6544L11.7197 16.3321C11.3697 16.0784 10.8963 16.0784 10.5463 16.3321L5.96074 19.6544C5.17649 20.2227 4.1232 19.4557 4.42322 18.5348L6.17179 13.1682C6.30625 12.7555 6.15917 12.3033 5.80771 12.0486L1.23283 8.73398C0.447826 8.16521 0.850157 6.92418 1.81955 6.92418H7.48031C7.91323 6.92418 8.29699 6.64561 8.43111 6.23398L10.1822 0.85958Z" fill="#070707"/>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
                 <div class="skills-form-icons__img">
                     <div class="skills-form-icons-img__pic">
-                        <img src="./img/icons/GroupAdobeIlystraror.png">
+                        <img src="./img/icons/GroupAdobeIlystraror.png" alt="Ilustrator">
                     </div>
-                    <div class="skills-form-text__prof">
+                    <div class="icon-text skills-form-text__prof">
                         <p>Adobe<br>Illustrator </p>
                     </div>
                     <ul class="skills-form-icons__stars">
@@ -105,9 +118,9 @@
                 </div>
                 <div class="skills-form-icons__img">
                     <div class="skills-form-icons-img__pic">
-                        <img src="./img/icons/GroupAdobeAfter.png">
+                        <img src="./img/icons/GroupAdobeAfter.png" alt="AdobeAfter">
                     </div>
-                    <div class="skills-form-text__prof">
+                    <div class="icon-text skills-form-text__prof">
                         <p>Adobe<br>After Effects</p>
                     </div>
                     <ul class="skills-form-icons__stars">
@@ -130,9 +143,9 @@
                 </div>
                 <div class="skills-form-icons__img">
                     <div class="skills-form-icons-img__pic">
-                        <img src="./img/icons/GroupFigma.png">
+                        <img src="./img/icons/GroupFigma.png" alt="Figma">
                     </div>
-                    <div class="skills-form-text__prof">
+                    <div class="icon-text skills-form-text__prof">
                         <p><br>Figma</p>
                     </div>
                     <ul class="skills-form-icons__stars">
@@ -153,20 +166,21 @@
                         </li>
                     </ul>
                 </div>
-            </div>    
+            </div>
         </section>
         <section class="portfolio">
             <div class="sub-tittle portfolio-form">Portfolio</div>
             <div class="portfolio-form-img">
                 <div class="portfolio-form-img__backgroud portfolio-itemone"></div>
-                <div class="sub-text portfolio-form-text__info"><a href="#">Online fashion store - <br>Homepage</a></div>
+                <div class="sub-text portfolio-form-text__info"><a href="#">Online fashion store - <br>Homepage</a>
+                </div>
                 <div class="portfolio-form-img__backgroud portfolio-itemtwo"></div>
                 <div class="sub-text portfolio-form-text__info"><a href="#">Reebok Store - Concept</a></div>
                 <div class="portfolio-form-img__backgroud portfolio-itemthre"></div>
                 <div class="sub-text portfolio-form-text__info"><a href=#>Braun Landing Page - Concept</a></div>
             </div>
         </section>
-        <footer>
+        <footer class="contacts-form">
             <div class="contacts">
                 <div class="sub-tittle contacts-tittle">Contacts</div>
                 <p class="contacts-text">Want to know more or just chat? You are welcome!</p>
@@ -177,9 +191,10 @@
                     <div class="contacs-img__icons contacts-img-backgroundbe"></div>
                     <div class="contacs-img__icons contacts-img-backgroundbas"></div>
                 </div>
-                <p class="contacts-text-end">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+                <p class="icon-text contacts-text-end">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
             </div>
         </footer>
     </div>
 </body>
+
 </html>
