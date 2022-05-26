@@ -1,10 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    max-height: 4000px;
-    max-width: 1400px;
 }
 .wrapper {
+    max-height: 4000px;
+    max-width: 1400px;
     font-family: 'Poppins';
 }
 .sub-btn {
@@ -17,13 +17,20 @@
     font-size: 17px;
     color: #fff;
 }
+
+
+/* header section */
+
+
 .header {
     display:flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
     margin: 20px 0 0 0;
 }
 .header__box {
     display: flex;
-    padding: 22px 320px 24px 144px;
 }
 .header__title {
     color: #173A56;
@@ -65,11 +72,16 @@
 a:visited {
     color:  red;
 }
+
+/*end header section*/
+
+/*section desing*/
+
 .itemone {
     color: #173A56;
 }
 .desing__box {
-    margin: 30px 130px 0px 145px;
+    margin: 30px 120px 0px 120px;
 }
 .desing-box__tittle {
     padding: 84px 0px 0px 0px;
@@ -80,10 +92,13 @@ a:visited {
 }
 .desing-box__img {
     background-image: url(/img/Image.png);
-    float: right;
-    min-width:600px;
-    min-height:490px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    min-width: 640px;
+    min-height: 500px;
 }
+
 .desing__btn {
     display: flex;
     gap: 20px;
@@ -96,4 +111,46 @@ a:visited {
 .btn-text {
     color: #fff;
     font-size: 17px;
+}
+
+/*end desing section*/
+
+.desingtools {
+    margin-top: 120px;
+}
+.img {
+    position: relative;
+}
+.desingtools__box {
+    margin: 0 120px 0 120px;
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 2200px 400px;
+    background-position: bottom;
+}
+.desingtools__card {
+    display: flex;
+}
+.desingtools__tittle{
+    text-align: center;
+    padding-bottom: 31px;
+}
+.desingtools__tittle-text {
+    font-size: 2em;
+    color: #2F281E;
+}
+.sub-item{
+    padding-top: 30px;
+}
+.sub-tittle{
+    padding-bottom: 16px;
+}
+.desingtools__btn {
+    text-align: center;
+    padding: 70px 0 74px 0;
+}
+.btn-tools {
+    border: 0;
+    color: #FFF;
+    background: #FF9900;
 }
