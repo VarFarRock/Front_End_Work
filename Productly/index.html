@@ -5,132 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-                <div class="header__box">
-                    <div class="header-box__icon">
-                        <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <rect x="0.924316" width="31.1676" height="32" fill="url(#pattern0)"/>
-                            <defs>
-                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_0_717" transform="scale(0.016129 0.015625)"/>
-                            </pattern>
-                            <image id="image0_0_717" width="62" height="64" xlink:href="data:image/png;base64,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"/>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div class="header-box__title"><span class="header__title"><b>Productly</b></span>
-                    </div>
-                </div>
-                <div class="header__navigation">
-                    <nav class="header__navigation-list">
-                        <ul class="header__navigation-link">
-                            <li class="header__link">
-                                <a href="#" class="link">Product</a>
-                            </li>
-                            <li class="header__link">
-                                <a href="#" class="link">Customers</a>
-                            </li>
-                            <li class="header__link">
-                                <a href="#" class="link">Pricng</a>
-                            </li>
-                            <li class="header__link">
-                                <a href="#" class="link">Resources</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="hedear__buttom">
-                    <button type="submit" class="sub-btn header__btnone"><p class="sub-btn__text header__btnone-itemone"><b>Sign In</b></p></button>
-                    <button type="submit" class="sub-btn header__btntwo"><p class="sub-btn__text header__btntwo-itemtwo"><b>Sign Up</b></p></button>
-                </div>
+            <div class="productly">
+                <img src="./img/icons/Bitmap.svg">
+                <span class="productly__title"><b>Productly</b></span>
+            </div>
+            <div class="navigation-menu">
+                <a href="#" class="navigation-menu__link">Product</a>
+                <a href="#" class="navigation-menu__link">Customers</a>
+                <a href="#" class="navigation-menu__link">Pricng</a>
+                <a href="#" class="navigation-menu__link">Resources</a>
+            </div>
+            <div class="bar-btn">
+                <button type="submit" class="sub-btn bar-brn__one"><span class="bar-btn__Singl-In"><b>Sing In</b></span></button>
+                <button type="submit" class="sub-btn bar-brn__two"><span class="bar-btn__Singl-Up"><b>Sing Up</b></span></button>
+            </div>
         </header>
-        <section class="desing">
-            <div class="desing__box">
-                <div class="desing-box__img">
-                <div class="desing-box__tittle">
-                    <span class="desing-box__tittle-tex"><b>The Desing Thinking <br>superpowers</span></b>
+        <main class="main">
+            <section class="desing">
+                <div class="desing-content">
+                    <div class="desing__tittle">
+                        <span class="desing__tittle-text"><b>The Design Thinking<br>superpowers</b></span>
+                    </div>
+                    <div class="desing__text-box">
+                    <span class="desing__text-content">Tools, tutorials, design and innovation experts, all<br>
+                            in one place! The most intuitive way to imagine<br>
+                            your next user experience.</span>
+                    </div>
+                    <div class="desing__btn-box">
+                        <button type="submit" class="sub-btn desing-btn__item"><b>Get started</b></button>
+                    </div>
                 </div>
-                <div class="desing__tex">
-                    <p>Tools, tutorials, design and innovation experts, all <br>in one place! The most intuitive way to imagine <br>your next user experience.</p>
+                <div class="desing-img">
+                </div>
+            </section>
+            <section class="desing-tools">
+                <div class="desing__box-tittle">
+                    <span class="desing__sub-tittle"><b>We design tools to unveil<br>your superpowers</b></span>
+                </div>
+                <div class="desing__cards-content">
+                    <div class="desing__card">
+                        <img src="./img/icons/cursor.svg">
+                        <div class="desing__card-content">
+                            <span class="desing__card-tittle"><b>First click tests</b></span>
+                        </div>
+                        <p class="desing__card-text">Personal choices and the overall personality of the person. </p>
+                    </div>
+                    <div class="desing__card">
+                        <img src="./img/icons/desing.svg">
+                        <div class="desing__card-content">
+                            <span class="desing__card-tittle"><b>Design surveys</b></span>
+                        </div>
+                        <p class="desing__cards-text">The Myspace page defines the individual.</p>
+                    </div>
+                    <div class="desing__card">
+                        <img src="./img/icons/heart.svg">
+                        <div class="desing__card-content">
+                            <span class="desing__card-tittle"><b>Preference tests</b></span>
+                        </div>
+                        <p class="desing__cards-text">Sports betting, lottery and bingo playing for the fun</p>
+                    </div>
+                    <div class="desing__card">
+                        <img src="./img/icons/time.svg">
+                        <div class="desing__card-content">
+                            <span class="desing__card-tittle"><b>Five second tests</b></span>
+                        </div>    
+                        <p class="desing__cards-text">While most people enjoy casino gambling</p>
+                    </div>
                 </div>
                 <div class="desing__btn">
-                    <div class="desing__btn-one">
-                        <button type="submit" class="sub-btn buttomone"><p class="btn-text"><b>Get Starterd</b></p></button>
-                    </div>
+                    <button type="submit" class="sub-btn desing-btn__item"><b>Singl Up Now</b></button>
                 </div>
-            </div>
-        </section>
-        <section class="desingtools">
-            <div class="desingtools__box">
-                <div class="desingtools__tittle"><p class="desingtools__tittle-text"><b>We design tools to unveil<br>your superpowers</b></p></div>
-                <div class="desingtools__card">
-                    <div class="item-one">
-                        <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="50" height="50" rx="15" fill="#7752BE"/>
-                            <path d="M30.1161 26.5982C30.3006 26.7768 30.3423 26.9821 30.2411 27.2143C30.1399 27.4524 29.9643 27.5714 29.7143 27.5714H26.3036L28.0982 31.8214C28.1577 31.9702 28.1577 32.1161 28.0982 32.2589C28.0387 32.4018 27.9375 32.506 27.7946 32.5714L26.2143 33.2411C26.0655 33.3006 25.9196 33.3006 25.7768 33.2411C25.6339 33.1815 25.5298 33.0804 25.4643 32.9375L23.7589 28.9018L20.9732 31.6875C20.8601 31.8006 20.7262 31.8571 20.5714 31.8571C20.5 31.8571 20.4286 31.8423 20.3571 31.8125C20.119 31.7113 20 31.5357 20 31.2857V17.8571C20 17.6071 20.119 17.4315 20.3571 17.3304C20.4286 17.3006 20.5 17.2857 20.5714 17.2857C20.7321 17.2857 20.8661 17.3423 20.9732 17.4554L30.1161 26.5982Z" fill="white"/>
-                        </svg>
-                        <div class="sub-item">
-                            <h3 class="sub-tittle">First click tests</h3>
-                            <p>While most people enjoy casino<br>gambling,</p>
-                        </div>
-                    </div>
-                    <div class="item-two">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="50" height="50" rx="15" fill="#FAB005"/>
-                            <path d="M25.4821 23.6429V22.5893C25.4821 22.3393 25.3929 22.125 25.2143 21.9464C25.0357 21.7679 24.8214 21.6786 24.5714 21.6786C24.3214 21.6786 24.1071 21.7679 23.9286 21.9464C23.75 22.125 23.6607 22.3393 23.6607 22.5893V28.0536C23.6607 29.0952 23.2857 29.9851 22.5357 30.7232C21.7857 31.4613 20.8839 31.8304 19.8304 31.8304C18.7708 31.8304 17.8661 31.4583 17.1161 30.7143C16.372 29.9643 16 29.0595 16 28V25.625H18.9286V27.9643C18.9286 28.2202 19.0179 28.4375 19.1964 28.6161C19.375 28.7887 19.5893 28.875 19.8393 28.875C20.0893 28.875 20.3036 28.7887 20.4821 28.6161C20.6607 28.4375 20.75 28.2202 20.75 27.9643V22.4286C20.75 21.4107 21.125 20.5417 21.875 19.8214C22.631 19.1012 23.5298 18.7411 24.5714 18.7411C25.619 18.7411 26.5179 19.1042 27.2679 19.8304C28.0179 20.5565 28.3929 21.4315 28.3929 22.4554V23.6696L26.6518 24.1875L25.4821 23.6429ZM30.2143 25.625H33.1429V28C33.1429 29.0595 32.7679 29.9643 32.0179 30.7143C31.2738 31.4583 30.372 31.8304 29.3125 31.8304C28.2589 31.8304 27.3571 31.4613 26.6071 30.7232C25.8571 29.9792 25.4821 29.0833 25.4821 28.0357V25.6429L26.6518 26.1875L28.3929 25.6696V28.0804C28.3929 28.3304 28.4821 28.5446 28.6607 28.7232C28.8393 28.8958 29.0536 28.9821 29.3036 28.9821C29.5536 28.9821 29.7679 28.8958 29.9464 28.7232C30.125 28.5446 30.2143 28.3304 30.2143 28.0804V25.625Z" fill="white"/>
-                        </svg>
-                        <div class="sub-item">
-                            <h3 class="sub-tittle">First click tests</h3>
-                            <p>While most people enjoy casino gambling,</p>
-                        </div>
-                    </div>
-                    <div class="item-thee">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="50" height="50" rx="15" fill="#F03E3D"/>
-                            <path d="M25.3929 31.9821C25.2857 32.0893 25.1548 32.1429 25 32.1429C24.8452 32.1429 24.7143 32.0893 24.6071 31.9821L19.0357 26.6071C18.9762 26.5595 18.8929 26.4821 18.7857 26.375C18.6845 26.2679 18.5208 26.0744 18.2946 25.7946C18.0685 25.5089 17.8661 25.2173 17.6875 24.9196C17.5089 24.622 17.3482 24.2619 17.2054 23.8393C17.0685 23.4167 17 23.006 17 22.6071C17 21.2976 17.378 20.2738 18.1339 19.5357C18.8899 18.7976 19.9345 18.4286 21.2679 18.4286C21.6369 18.4286 22.0119 18.494 22.3929 18.625C22.7798 18.75 23.1369 18.9226 23.4643 19.1429C23.7976 19.3571 24.0833 19.5595 24.3214 19.75C24.5595 19.9405 24.7857 20.1429 25 20.3571C25.2143 20.1429 25.4405 19.9405 25.6786 19.75C25.9167 19.5595 26.1994 19.3571 26.5268 19.1429C26.8601 18.9226 27.2173 18.75 27.5982 18.625C27.9851 18.494 28.3631 18.4286 28.7321 18.4286C30.0655 18.4286 31.1101 18.7976 31.8661 19.5357C32.622 20.2738 33 21.2976 33 22.6071C33 23.9226 32.3185 25.2619 30.9554 26.625L25.3929 31.9821Z" fill="white"/>
-                        </svg>
-                        <div class="sub-item">
-                            <h3 class="sub-tittle">First click tests</h3>
-                            <p>While most people enjoy casino gambling,</p>
-                        </div>
-                    </div>
-                    <div class="item-four">
-                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="50" height="50" rx="15" fill="#4DADF7"/>
-                            <path d="M30.5714 18.4286C30.5714 19.9821 30.253 21.3571 29.6161 22.5536C28.9851 23.744 28.1935 24.6548 27.2411 25.2857C28.1935 25.9167 28.9851 26.8304 29.6161 28.0268C30.253 29.2173 30.5714 30.5893 30.5714 32.1429H31.4286C31.5119 32.1429 31.5804 32.1696 31.6339 32.2232C31.6875 32.2768 31.7143 32.3452 31.7143 32.4286V33C31.7143 33.0833 31.6875 33.1518 31.6339 33.2054C31.5804 33.2589 31.5119 33.2857 31.4286 33.2857H18.2857C18.2024 33.2857 18.1339 33.2589 18.0804 33.2054C18.0268 33.1518 18 33.0833 18 33V32.4286C18 32.3452 18.0268 32.2768 18.0804 32.2232C18.1339 32.1696 18.2024 32.1429 18.2857 32.1429H19.1429C19.1429 30.5893 19.4583 29.2173 20.0893 28.0268C20.7262 26.8304 21.5208 25.9167 22.4732 25.2857C21.5208 24.6548 20.7262 23.744 20.0893 22.5536C19.4583 21.3571 19.1429 19.9821 19.1429 18.4286H18.2857C18.2024 18.4286 18.1339 18.4018 18.0804 18.3482C18.0268 18.2946 18 18.2262 18 18.1429V17.5714C18 17.4881 18.0268 17.4196 18.0804 17.3661C18.1339 17.3125 18.2024 17.2857 18.2857 17.2857H31.4286C31.5119 17.2857 31.5804 17.3125 31.6339 17.3661C31.6875 17.4196 31.7143 17.4881 31.7143 17.5714V18.1429C31.7143 18.2262 31.6875 18.2946 31.6339 18.3482C31.5804 18.4018 31.5119 18.4286 31.4286 18.4286H30.5714ZM29.4286 18.4286H20.2857C20.2857 19.6548 20.5387 20.7976 21.0446 21.8571H28.6696C29.1756 20.7976 29.4286 19.6548 29.4286 18.4286ZM28.9196 29.2857C28.5982 28.4464 28.1637 27.7292 27.6161 27.1339C27.0744 26.5327 26.497 26.1071 25.8839 25.8571H23.8304C23.2173 26.1071 22.6369 26.5327 22.0893 27.1339C21.5476 27.7292 21.1161 28.4464 20.7946 29.2857H28.9196Z" fill="white"/>
-                        </svg>
-                        <div class="sub-item">
-                            <h3 class="sub-tittle">First click tests</h3>
-                            <p>While most people enjoy casino gambling,</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="desingtools__btn">
-                    <button type="submit" class="sub-btn btn-tools">Singl Up Now</button>
-                </div>
-            </div>
-        </section>
-        <!----
-        <section>
-            
-        </section>
-        <section>
-            
-        </section>
-        <section>
-            
-        </section>
+                <div class="desing__bg-img"></div>
+            </section>
+            <section>
+            </section>
+        </main>
         <footer>
 
         </footer>
-    </div>-->
+    </div>
 </body>
 </html> 
 

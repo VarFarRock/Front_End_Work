@@ -3,157 +3,130 @@
     margin: 0;
 }
 .wrapper {
-    max-height: 4000px;
+    margin: 0 auto;
     max-width: 1400px;
-    font-family: 'Poppins';
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .sub-btn {
+    border: 0;
     background: none;
-    Width:175px;
-    Height:53px;
     border-radius: 4px;
-}
-.sub-btn__text {
-    font-size: 17px;
-    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    Width:110px;
+    Height:46px;
 }
 
-
-/* header section */
+/* global content */
 
 
 .header {
-    display:flex;
-    justify-content: center;
-    gap: 120px;
-    align-items: center;
-    margin: 20px 0 0 0;
-}
-.header__box {
     display: flex;
+    justify-content: space-around;
+    margin: 20px 0 52px 0;
 }
-.header__title {
+
+.navigation-menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 320px;
+}
+.productly__title {
+    font-size: 2em;
     color: #173A56;
 }
-.desing-box__tittle {
-    margin-bottom: 30px;
-}
-.header__navigation {
-    padding: 24px 0 26px 0px;
-}
-.header__navigation-list {
-    margin: 0 29px 0 0;
-}
-.header__navigation-link {
-    list-style: none;
-}
-.link {
+.navigation-menu__link {
     text-decoration: none;
 }
-.header__link { 
-    display: inline-block;
-    padding-left: 10px;    
-}
-.header-box__title {
-    padding: 2px 0px 0px 5px;
-}
-.hedear__buttom {
-    padding: 15px;
-}
-.header__btnone {
-    border: 2px solid darkblue;
-    background: #fff;
+.bar-brn__one {
+    border: 1px solid #BCD0E5;
     margin-right: 14px;
 }
-.header__btnone-itemone {
-    color: #173A56;
-}
-.header__btntwo {
-    border: none;
+.bar-brn__two {
     background: #FF9900;
 }
-a:visited {
-    color:  red;
-}
-
-/*end header section*/
-
-/*section desing*/
-
-.itemone {
+.bar-btn__Singl-In {
     color: #173A56;
 }
-.desing__box {
-    margin: 30px 120px 0px 120px;
+.bar-btn__Singl-Up{
+    color: #FFF;
 }
-.desing-box__tittle {
-    padding: 84px 0px 0px 0px;
-    color: #2F281E;
+.desing {
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
 }
-.desing-box__tittle-tex {
-    font-size: 2em;
-}
-.desing-box__img {
+.desing-img {
+    position: absolute;
     background-image: url(../img/Image.png);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: right;
-    min-width: 640px;
-    min-height: 500px;
+    background-size: contain;
+    min-width:650px;
+    min-height:400px;
+    left: 40%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-
-.desing__btn {
-    display: flex;
-    gap: 20px;
-    padding: 45px 0 53px 0 ;
+.desing__tittle {
+    margin-top: 80px;
 }
-.buttomone {
-    border: 0;
+.desing__tittle-text {
+    font-size:44px ;
+    color: black; 
+}
+.desing__text-content {
+    color: #544837;
+    font-size: 18px;
+}
+.desing__text-box {
+    margin-top: 30px;
+}
+.desing__btn-box {
+    margin-top: 45px;
+}
+.desing-btn__item {
+    color: #fff;
     background: #FF9900;
 }
-.btn-text {
-    color: #fff;
-    font-size: 17px;
+.desing__cards-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
-/*end desing section*/
-
-.desingtools {
-    margin-top: 120px;
+.desing__box-tittle {
+    margin-bottom: 50px;
+    text-align: center;
 }
-.img {
+.desing__sub-tittle {
+    font-size: 36px;
+}
+.desing__cards-content {
+    margin: 0 0 70px 0;
     position: relative;
 }
-.desingtools__box {
-    margin: 0 120px 0 120px;
+.desing__card-content {
+    margin: 30px 0 16px 0;
+}
+.desing__card-tittle {
+    font-size: 22px;
+    color:#2F281E;
+}
+.desing__cards-text {
+    font-size: 16px;
+    color: #544837;
+}
+.desing__btn {
+    text-align: center;
+}
+.desing__bg-img {
+    position: absolute;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
-    background-size: 2200px 400px;
-    background-position: bottom;
-}
-.desingtools__card {
-    display: flex;
-}
-.desingtools__tittle{
-    text-align: center;
-    padding-bottom: 31px;
-}
-.desingtools__tittle-text {
-    font-size: 2em;
-    color: #2F281E;
-}
-.sub-item{
-    padding-top: 30px;
-}
-.sub-tittle{
-    padding-bottom: 16px;
-}
-.desingtools__btn {
-    text-align: center;
-    padding: 70px 0 74px 0;
-}
-.btn-tools {
-    border: 0;
-    color: #FFF;
-    background: #FF9900;
+    background-size: contain;
+    top: 95%;
+    min-width:2200px;
+    min-height: 300px;
 }
