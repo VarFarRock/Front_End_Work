@@ -62,13 +62,11 @@
 }
 .desing-img {
     position: absolute;
-    background-image: url(../img/Image.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-width:650px;
-    min-height:400px;
-    left: 40%;
+    left: 50%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.img {
+    max-width: 95%;
 }
 .desing__tittle {
     margin-top: 80px;
@@ -105,7 +103,6 @@
 }
 .desing__cards-content {
     margin: 0 0 70px 0;
-    position: relative;
 }
 .desing__card-content {
     margin: 30px 0 16px 0;
@@ -121,12 +118,15 @@
 .desing__btn {
     text-align: center;
 }
-.desing__bg-img {
+.content__img 
+{
+    z-index: -2;
     position: absolute;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    top: 95%;
-    min-width:2200px;
-    min-height: 300px;
+    overflow: hidden;
+    max-width: 100%;
+    top:40%;
+}
+.desing-tools {
+    z-index: 1;
+    position: relative;
 }
