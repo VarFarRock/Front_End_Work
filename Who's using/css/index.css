@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wraper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    margin: 30px 0 100px 0;
+}
+.container {
+    display: flex;
+    justify-content:space-between;
+}
+.container__text {
+    display: flex;
+    gap: 30px;
+    font-family: 'Tourney';
+    font-size: 22px;
+    font-weight: bold;
+}
+.container__logo-tittle {
+    font-weight: bold;
+    font-size: 30px;
+}
+.flip-card-content {
+    margin-bottom: 40px;
+}
+.flip-card__tittle {
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 20px;
+}
+.flip-card-border {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.flip-card-border .flip-card-fecebook:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-instagram:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-spotify:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-skype:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-wix:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-salesforce:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-soundcloud:hover {
+    transform: rotateX(180deg);
+}
+.flip-card-border .flip-card-pinterest:hover {
+    transform: rotateX(180deg);
+}
+.card-box {
+    position: relative;
+    min-width: 270px;
+    min-Height:180px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card-front, .flip-card-back {
+    position:absolute;
+    min-width: 270px;
+    min-Height:180px;
+    backface-visibility: hidden;
+}
+.flip-card-back {
+    transform: rotateX(180deg);
+}
