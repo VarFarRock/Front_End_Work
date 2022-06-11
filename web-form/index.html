@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="container__title">
+                    <span class="container__text">Profile</span>
+                </div>
+                <div class="container__content">
+                    <img class="content__img" src="./img/prof.png">
+                        <div>
+                        <label class="sub-content content__upload" for="input-UPload">
+                            <input type="file" id="input-UPload">
+                            <img class="content__img-upload" src="./img/Photo Camera.svg">
+                        </label>
+                        <p class="content__upload-text">Up to 1 MB (300x300 px)</p>
+                        </div>
+                    <label class="sub-content content__reset" for="input-reset">
+                        <input type="reset" id="input-reset">
+                        <img class="content__img-reset" src="./img/Trash.svg">                         
+                    </label>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="cards">
+                <div class="cards__form">
+                    <h5>Name</h5>
+                    <label class="cards__input">
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="cards__form">
+                    <h5>E-mail</h5>
+                    <label class="cards__input">
+                        <input type="email">
+                    </label>
+                </div>
+                <div class="cards__form">
+                    <h5>Country</h5>
+                    <label class="cards__input">
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="cards__form">
+                    <h5>City</h5>
+                    <label class="cards__input">
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="cards__form">
+                    <h5>Zip Code</h5>
+                    <label class="cards__input">
+                        <input type="text">
+                    </label>
+                </div>
+                <div class="cards__form">
+                    <h5>Phone Number</h5>
+                    <label class="cards__input">
+                        <input type="number">
+                    </label>
+                </div>
+            </section>
+            <section>
+                <div class="btn">
+                    <button type="submit" class="btn__submit">Update</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
