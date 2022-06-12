@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.page-wraper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.main {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.header {
+    margin: 0 0 100px;
+}
+.header__content {
+    display: flex;
+    padding: 25px 135px 25px;
+}
+h2 {
+    margin: 0 0 0 13px;
+}
+hr{
+    border: 1px solid #EFEEF3;
+}
+.service__content-text {
+    font-size: 16px;
+    color: #7690A8;
+    line-height: 21px;
+    padding: 0 0 15px;
+}
+.service__content-title {
+    color: #16133D;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 0 40px;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+.cards-conteiner__box {
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+.cards-conteiner__box:nth-child(2) {
+    margin: 0 30px 0 30px;
+}
+.cards-conteiner__box:hover {
+    border: 1px solid #007FFC;
+}
+.cards-conteiner__box:hover > .cards-container__desing{
+    border: 1px dotted #007FFC;
+}
+.cards-container__desing {
+    border-radius: 8px;
+    margin: 40px 50px;
+    border: 1px solid #E5EAF4;;
+}
+.container__desing-text {
+    padding: 30px 0 30px;
+}
+.cards-container__desing > p {
+    font-size: 16px;
+    line-height: 19px;
+    color: green;
+    font-weight: bold;
+}
+.img {
+    position: relative;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    width: 64px;
+    height: 64px;
+}
+.img:hover {
+    border: 1px solid #1565D8;
+}
+.img > svg {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    transform: translate(-50px -50px);
+}
+.container__desing-text > h5 {
+    padding: 0 0 15px;
+    font-size: 24px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.footer {
+    margin: 100px 0;
+    background-color: #16133D;
+}
+.footer__content {
+    padding: 40px 135px;
+}
+.footer__content-title {
+    display: flex;
+    padding: 0 0 40px;
+}
+.footer__content-title > h2 {
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFF;
+}
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
+.footer__img:hover > svg {
+    border: 1px solid  #007FFC;;
+    border-radius: 10px;
+}
